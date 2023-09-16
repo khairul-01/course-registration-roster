@@ -1,0 +1,99 @@
+[
+   {
+     "id": 1,
+     "course_name": "Introduction to Computer Science",
+     "credit": 3,
+     "price": 500,
+     "course_details": "Learn the fundamentals of computer science and programming.",
+     "image": "https://i.ibb.co/mtb3pV5/Introduction-to-Computer-Science.jpg"
+   },
+   {
+     "id": 2,
+     "course_name": "Data Structures and Algorithms",
+     "credit": 4,
+     "price": 600,
+     "course_details": "Explore advanced data structures and algorithmic techniques.",
+     "image": "https://i.ibb.co/Wkxc2xx/2977611-430951-PE8-UPE-853.jpg"
+   },
+   {
+     "id": 3,
+     "course_name": "Web Development Fundamentals",
+     "credit": 3,
+     "price": 450,
+     "course_details": "Master the basics of web development and design.",
+     "image": "https://i.ibb.co/xmsykrN/Web-Development-Fundamentals.jpg"
+   },
+   {
+     "id": 4,
+     "course_name": "Machine Learning Basics",
+     "credit": 4,
+     "price": 700,
+     "course_details": "Introduction to machine learning and predictive modeling.",
+     "image": "https://i.ibb.co/xDmG1n2/Machine-Learning-Basics.png"
+   },
+   {
+     "id": 5,
+     "course_name": "Database Management Systems",
+     "credit": 3,
+     "price": 550,
+     "course_details": "Learn about database design, SQL, and NoSQL databases.",
+     "image": "https://i.ibb.co/52LS8j5/Database-Management-Systems.jpg"
+   },
+   {
+     "id": 6,
+     "course_name": "Digital Marketing Strategies",
+     "credit": 3,
+     "price": 400,
+     "course_details": "Explore digital marketing techniques and best practices.",
+     "image": "https://i.ibb.co/D8N57xG/Digital-Marketing-Strategies.jpg"
+   },
+   {
+     "id": 7,
+     "course_name": "Artificial Intelligence",
+     "credit": 4,
+     "price": 750,
+     "course_details": "In-depth study of artificial intelligence and neural networks.",
+     "image": "https://i.ibb.co/m8LxXxh/Artificial-Intelligence.png"
+   },
+   {
+     "id": 8,
+     "course_name": "Financial Management",
+     "credit": 3,
+     "price": 600,
+     "course_details": "Learn financial analysis, budgeting, and investment strategies.",
+     "image": "https://i.ibb.co/pjsNDKq/Financial-Management.png"
+   },
+   {
+     "id": 9,
+     "course_name": "Mobile App Development",
+     "credit": 4,
+     "price": 650,
+     "course_details": "Build mobile apps for iOS and Android platforms.",
+     "image": "https://i.ibb.co/P55NN3w/Mobile-App-Development.jpg"
+   },
+   {
+     "id": 10,
+     "course_name": "Business Ethics and Sustainability",
+     "credit": 3,
+     "price": 450,
+     "course_details": "Explore ethical practices in business and sustainable development.",
+     "image": "https://i.ibb.co/16x7KJj/Business-Ethics-and-Sustainability.jpg"
+   },
+   {
+     "id": 11,
+     "course_name": "Creative Writing Workshop",
+     "credit": 2,
+     "price": 300,
+     "course_details": "Develop your creative writing skills with hands-on exercises.",
+     "image": "https://i.ibb.co/2sjhph5/Creative-Writing-Workshop.png"
+   },
+   {
+     "id": 12,
+     "course_name": "Environmental Science",
+     "credit": 3,
+     "price": 550,
+     "course_details": "Study environmental issues and conservation efforts.",
+     "image": "https://i.ibb.co/hV8QBzJ/Environmental-Science.webp"
+   }
+ ]
+ 
