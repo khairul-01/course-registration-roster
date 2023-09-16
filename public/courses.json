@@ -8,14 +8,6 @@
      "image": "https://i.ibb.co/mtb3pV5/Introduction-to-Computer-Science.jpg"
    },
    {
-     "id": 2,
-     "course_name": "Data Structures and Algorithms",
-     "credit": 4,
-     "price": 600,
-     "course_details": "Explore advanced data structures and algorithmic techniques.",
-     "image": "https://i.ibb.co/Wkxc2xx/2977611-430951-PE8-UPE-853.jpg"
-   },
-   {
      "id": 3,
      "course_name": "Web Development Fundamentals",
      "credit": 3,
@@ -87,6 +79,14 @@
      "course_details": "Develop your creative writing skills with hands-on exercises.",
      "image": "https://i.ibb.co/2sjhph5/Creative-Writing-Workshop.png"
    },
+   {
+      "id": 2,
+      "course_name": "Data Structures and Algorithms",
+      "credit": 4,
+      "price": 600,
+      "course_details": "Explore advanced data structures and algorithmic techniques.",
+      "image": "https://i.ibb.co/Wkxc2xx/2977611-430951-PE8-UPE-853.jpg"
+    },
    {
      "id": 12,
      "course_name": "Environmental Science",
