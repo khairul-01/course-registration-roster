@@ -1,7 +1,7 @@
 import { BiDollar } from "react-icons/bi";
 import { GoBook } from "react-icons/go";
 
-const Course = ({course}) => {
+const Course = ({course, handleSelectedCourses}) => {
    const {id, course_name, credit, price, course_details, image } = course;
    return (
       <div className="bg-white p-3 rounded-lg space-y-3">
@@ -18,7 +18,7 @@ const Course = ({course}) => {
                <span>Credit : {credit}hr</span>
             
          </div>
-         <button className="bg-blue-500 w-full rounded-lg text-center text-white font-bold">Select</button>
+         <button onClick={()=>handleSelectedCourses(course)} className="bg-blue-500 w-full rounded-lg text-center text-white font-bold">Select</button>
       </div>
    );
 };
