@@ -18,7 +18,7 @@ const Course = ({course, handleSelectedCourses}) => {
                <span>Credit : {credit}hr</span>
             
          </div>
-         <button onClick={()=>handleSelectedCourses(course)} className="bg-blue-500 w-full rounded-lg text-center text-white font-bold">Select</button>
+         <button onClick={()=>handleSelectedCourses(course)} className="bg-blue-500 w-full rounded-lg text-center text-white font-bold p-3">Select</button>
       </div>
    );
 };

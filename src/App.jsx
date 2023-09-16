@@ -4,6 +4,9 @@ import './App.css'
 import Courses from './components/courses/Courses'
 import PurchasedCourse from './components/purchasedCourse/PurchasedCourse'
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 function App() {
 
   const [selectedCourses, setSelectedCourses] = useState([]);
@@ -12,24 +15,43 @@ function App() {
   const [totalPrice, setTotalPrice] = useState(0);
 
   const handleSelectedCourses = course => {
-    const newselectedCourses = [...selectedCourses, course];
-    setSelectedCourses(newselectedCourses);
-    const newtotalCredit = totalCredit + course.credit;
-    setTotalCredit(newtotalCredit);
-    const newtotalPrice = totalPrice + course.price;
-    setTotalPrice(newtotalPrice);
-    const newRemainingCredit = remainingCredit - course.credit;
-    setRemainingCredit(newRemainingCredit);
+    if(selectedCourses.includes(course)){
+      toast('You can choose one course once at a time.')
+    }
+    else{
+      const newselectedCourses = [...selectedCourses, course];
+      setSelectedCourses(newselectedCourses);
+      
+      const newtotalCredit = totalCredit + course.credit;
+      if(newtotalCredit>20){
+        toast('Maximum credit limit is 20 hr')
+      }
+      else{
+        setTotalCredit(newtotalCredit);
+      }
+
+      const newtotalPrice = totalPrice + course.price;
+      setTotalPrice(newtotalPrice);
+
+      const newRemainingCredit = remainingCredit - course.credit;
+      if(newRemainingCredit<0){
+        toast('You have taken maximum credit hrs')
+      }
+      else{
+        setRemainingCredit(newRemainingCredit);
+      }
+    }
   }
 
   return (
     <>
-      <h1 className='text-4xl font-bold text-center text-green-800 m-5 p-5'>Course Registration</h1>
+      <h1 className='text-4xl font-bold text-center m-5 p-5'>Course Registration</h1>
       <div className='flex'>
         <div className='w-3/4'>
           <Courses handleSelectedCourses={handleSelectedCourses}></Courses>
         </div>
         <div className='w-1/4 ml-5'>
+          <ToastContainer/>
           <PurchasedCourse 
           selectedCourses={selectedCourses}
           remainingCredit = {remainingCredit}
