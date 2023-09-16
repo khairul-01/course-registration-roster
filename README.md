@@ -1,8 +1,10 @@
-# React + Vite
+# React Course Registration Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project has 12 high demandable courses.
+- It is created with react powerful framework 
+- This project id programmed such a way that you can select your any preferred course only once and maximum credit hour is 20 hours.
+- If you exceed your limit hours, it will show a warning notification.
 
-Currently, two official plugins are available:
+I managed the state in this assignment as state lifting. I declared state at the parent component and passed handler function at child component where trigered event. then handler function is triggered and passed the info to parent. and then from parent i passed the data and show the data at child component where needed and updated.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Live link of this project:-   sweet-trouble.surge.sh
