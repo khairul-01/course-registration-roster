@@ -45,7 +45,7 @@ function App() {
 
   return (
     <>
-      <h1 className='text-4xl font-bold text-center m-5 p-5'>Course Registration</h1>
+      <h1 className='text-5xl font-bold text-center m-5 p-5 text-sky-700'>Course Registration</h1>
       <div className='flex'>
         <div className='w-3/4'>
           <Courses handleSelectedCourses={handleSelectedCourses}></Courses>
